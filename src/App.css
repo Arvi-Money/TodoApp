@@ -1,0 +1,43 @@
+.todo-app-wrapper {
+  width: 983px;
+  margin: 50px auto;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+}
+
+.todo-app-wrapper .sidebar{
+  width: 209px;
+  border-right: 2px solid red;
+  padding: 100px 0px;
+  padding-left: 50px;
+}
+
+.todo-app-wrapper .main{
+  width: 774px;
+  padding: 40px;
+}
+
+.sidebar label {
+    font-size: 22px;
+}
+
+.sidebar input {
+    visibility: hidden;
+}
+
+.sidebar label:hover
+{
+    color:#EA5959;
+    cursor: pointer;
+}
+
+.sidebar input:checked + label{
+     color:#EA5959;
+    cursor: pointer;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

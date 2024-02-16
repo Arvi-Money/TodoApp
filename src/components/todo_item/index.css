@@ -1,0 +1,38 @@
+.item-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-wrapper:hover .trash_icon{
+    display: block;
+}
+
+.check{
+    display: flex;
+    gap: 10px;
+}
+
+.check input{
+    cursor: pointer;
+}
+
+.trash_icon{
+    cursor: pointer;
+    display: flex;
+}
+
+.category {
+   border: none;
+    width: 115px;
+    background-color: #ea5959;
+    color: #fff;
+    border-radius: 7px;
+    height: 25px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3px;
+}
